@@ -1,0 +1,38 @@
+<!-- wp:template-part {"slug":"header","area":"header","tagName":"header"} /-->
+
+<!-- wp:group {"tagName":"main","className":"kinesilk-main","layout":{"type":"constrained"}} -->
+<main class="wp-block-group kinesilk-main">
+
+	<!-- wp:group {"className":"kinesilk-section","style":{"spacing":{"padding":{"top":"var:preset|spacing|60","bottom":"var:preset|spacing|60"}}},"layout":{"type":"constrained"}} -->
+	<div class="wp-block-group kinesilk-section" style="padding-top:var(--wp--preset--spacing--60);padding-bottom:var(--wp--preset--spacing--60)">
+		<!-- wp:query-title {"type":"archive","className":"kinesilk-section__title"} /-->
+		<!-- wp:query {"queryId":0,"query":{"perPage":10,"pages":0,"offset":0,"postType":"post","order":"desc","orderBy":"date","inherit":true}} -->
+		<div class="wp-block-query">
+			<!-- wp:post-template -->
+				<!-- wp:group {"className":"kinesilk-post-card","style":{"spacing":{"padding":{"top":"var:preset|spacing|40","bottom":"var:preset|spacing|40"}}},"layout":{"type":"constrained"}} -->
+				<div class="wp-block-group kinesilk-post-card" style="padding-top:var(--wp--preset--spacing--40);padding-bottom:var(--wp--preset--spacing--40)">
+					<!-- wp:post-featured-image {"isLink":true,"aspectRatio":"16/9","className":"kinesilk-post-card__image"} /-->
+					<!-- wp:post-title {"isLink":true,"level":2,"fontSize":"x-large"} /-->
+					<!-- wp:post-excerpt /-->
+				</div>
+				<!-- /wp:group -->
+			<!-- /wp:post-template -->
+			<!-- wp:query-pagination {"layout":{"type":"flex","justifyContent":"center"}} -->
+				<!-- wp:query-pagination-previous /-->
+				<!-- wp:query-pagination-numbers /-->
+				<!-- wp:query-pagination-next /-->
+			<!-- /wp:query-pagination -->
+			<!-- wp:query-no-results -->
+				<!-- wp:paragraph {"align":"center"} -->
+				<p class="has-text-align-center">Todavía no hay publicaciones.</p>
+				<!-- /wp:paragraph -->
+			<!-- /wp:query-no-results -->
+		</div>
+		<!-- /wp:query -->
+	</div>
+	<!-- /wp:group -->
+
+</main>
+<!-- /wp:group -->
+
+<!-- wp:template-part {"slug":"footer","area":"footer","tagName":"footer"} /-->

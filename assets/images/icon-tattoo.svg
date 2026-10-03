@@ -1,0 +1,4 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 64 64" fill="none" stroke="#0B7E67" stroke-width="3.2" stroke-linecap="round" stroke-linejoin="round" role="img" aria-label="Eliminación de tatuajes">
+  <path d="M32 8 C40 20 46 27 46 37 A14 14 0 0 1 18 37 C18 27 24 20 32 8 Z"/>
+  <path d="M22 44 L44 52" stroke-dasharray="2 5"/>
+</svg>

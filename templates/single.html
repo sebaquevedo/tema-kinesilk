@@ -1,0 +1,47 @@
+<!-- wp:template-part {"slug":"header","area":"header","tagName":"header"} /-->
+
+<!-- wp:group {"tagName":"main","className":"kinesilk-main","layout":{"type":"constrained"}} -->
+<main class="wp-block-group kinesilk-main">
+	<!-- wp:group {"className":"kinesilk-single","style":{"spacing":{"padding":{"top":"var:preset|spacing|60","bottom":"var:preset|spacing|70"}}},"layout":{"type":"constrained"}} -->
+	<div class="wp-block-group kinesilk-single" style="padding-top:var(--wp--preset--spacing--60);padding-bottom:var(--wp--preset--spacing--70)">
+		<!-- wp:post-title {"level":1} /-->
+		<!-- wp:group {"className":"kinesilk-single__meta","layout":{"type":"flex","flexWrap":"wrap"}} -->
+		<div class="wp-block-group kinesilk-single__meta">
+			<!-- wp:post-date {"fontSize":"small"} /-->
+			<!-- wp:post-terms {"term":"category","fontSize":"small"} /-->
+		</div>
+		<!-- /wp:group -->
+		<!-- wp:post-featured-image {"aspectRatio":"16/9"} /-->
+		<!-- wp:post-content {"layout":{"type":"constrained"}} /-->
+		<!-- wp:comments -->
+		<div class="wp-block-comments">
+			<!-- wp:comments-title /-->
+			<!-- wp:comment-template -->
+				<!-- wp:group {"layout":{"type":"flex","flexWrap":"nowrap"}} -->
+				<div class="wp-block-group">
+					<!-- wp:avatar {"size":44} /-->
+					<!-- wp:group -->
+					<div class="wp-block-group">
+						<!-- wp:comment-author-name /-->
+						<!-- wp:comment-date {"fontSize":"small"} /-->
+						<!-- wp:comment-content /-->
+						<!-- wp:comment-reply-link /-->
+					</div>
+					<!-- /wp:group -->
+				</div>
+				<!-- /wp:group -->
+			<!-- /wp:comment-template -->
+			<!-- wp:comments-pagination -->
+				<!-- wp:comments-pagination-previous /-->
+				<!-- wp:comments-pagination-numbers /-->
+				<!-- wp:comments-pagination-next /-->
+			<!-- /wp:comments-pagination -->
+			<!-- wp:post-comments-form /-->
+		</div>
+		<!-- /wp:comments -->
+	</div>
+	<!-- /wp:group -->
+</main>
+<!-- /wp:group -->
+
+<!-- wp:template-part {"slug":"footer","area":"footer","tagName":"footer"} /-->

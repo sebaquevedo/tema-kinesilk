@@ -1,0 +1,19 @@
+/*
+Theme Name: Kinesilk
+Theme URI: https://kinesilk.cl
+Author: Kinesilk
+Author URI: https://kinesilk.cl
+Description: Tema propio Full Site Editing (FSE) para Kinesilk — centro de estética, depilación láser, despigmentación y eliminación de tatuajes en Punta Arenas. Diseño moderno, limpio y orientado a la conversión. 100% bloques nativos.
+Requires at least: 6.6
+Tested up to: 7.0
+Requires PHP: 7.4
+Version: 1.0.0
+License: GNU General Public License v2 or later
+License URI: http://www.gnu.org/licenses/gpl-2.0.html
+Text Domain: kinesilk_new
+Tags: full-site-editing, block-patterns, custom-colors, custom-logo, wide-blocks, accessibility-ready, e-commerce
+
+Kinesilk is based on the official WordPress block theme architecture.
+All custom component styles live in assets/css/styles.css (enqueued from functions.php).
+This file only carries the theme header; it intentionally contains no rules.
+*/

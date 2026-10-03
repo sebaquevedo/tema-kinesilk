@@ -1,0 +1,5 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 64 64" fill="none" stroke="#0B7E67" stroke-width="3.2" stroke-linecap="round" stroke-linejoin="round" role="img" aria-label="Tecnología que cuida">
+  <rect x="18" y="18" width="28" height="28" rx="6"/>
+  <path d="M26 26 h12 M26 32 h12 M26 38 h8"/>
+  <path d="M24 10 v6 M32 10 v6 M40 10 v6 M24 48 v6 M32 48 v6 M40 48 v6 M10 24 h6 M10 32 h6 M10 40 h6 M48 24 h6 M48 32 h6 M48 40 h6"/>
+</svg>
