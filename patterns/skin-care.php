@@ -6,12 +6,14 @@
  * Description: Sección de dos columnas, imagen a la izquierda y texto a la derecha.
  * Inserter: true
  */
-$dir = get_template_directory_uri();
+$up   = wp_upload_dir();
+$base = esc_url( $up['baseurl'] );
+$img  = $base . '/2025/11/P1480395-scaled.jpg';
 ?>
 <!-- wp:group {"tagName":"section","className":"kinesilk-section kinesilk-skincare","backgroundColor":"base","style":{"spacing":{"padding":{"top":"var:preset|spacing|70","bottom":"var:preset|spacing|70"}}},"layout":{"type":"constrained"}} -->
 <section class="wp-block-group kinesilk-section kinesilk-skincare has-base-background-color has-background" style="padding-top:var(--wp--preset--spacing--70);padding-bottom:var(--wp--preset--spacing--70)">
 	<!-- wp:media-text {"align":"wide","mediaType":"image","mediaWidth":48,"imageFill":true,"className":"kinesilk-mediatext","style":{"border":{"radius":"24px"}}} -->
-	<div class="wp-block-media-text alignwide is-stacked-on-mobile is-image-fill kinesilk-mediatext" style="border-radius:24px;grid-template-columns:48% auto"><figure class="wp-block-media-text__media" style="background-image:url(<?php echo esc_url( $dir ); ?>/assets/images/ph-portrait.svg);background-position:50% 50%"><img src="<?php echo esc_url( $dir ); ?>/assets/images/ph-portrait.svg" alt="Sesión de cuidado de la piel en Kinesilk"/></figure><div class="wp-block-media-text__content">
+	<div class="wp-block-media-text alignwide is-stacked-on-mobile is-image-fill kinesilk-mediatext" style="border-radius:24px;grid-template-columns:48% auto"><figure class="wp-block-media-text__media" style="background-image:url(<?php echo $img; ?>);background-position:50% 30%"><img src="<?php echo $img; ?>" alt="Sesión de cuidado de la piel con tecnología láser en Kinesilk"/></figure><div class="wp-block-media-text__content">
 		<!-- wp:paragraph {"className":"kinesilk-eyebrow"} -->
 		<p class="kinesilk-eyebrow">Cuidado profesional</p>
 		<!-- /wp:paragraph -->

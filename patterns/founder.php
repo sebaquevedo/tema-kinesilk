@@ -6,7 +6,9 @@
  * Description: Presentación de la fundadora y el enfoque dermatofuncional.
  * Inserter: true
  */
-$dir = get_template_directory_uri();
+$up   = wp_upload_dir();
+$base = esc_url( $up['baseurl'] );
+$img  = $base . '/2025/11/Jazmin-Quevedo-scaled.jpg';
 ?>
 <!-- wp:group {"tagName":"section","className":"kinesilk-section kinesilk-founder","gradient":"mint-soft","style":{"spacing":{"padding":{"top":"var:preset|spacing|70","bottom":"var:preset|spacing|70"}}},"layout":{"type":"constrained"}} -->
 <section class="wp-block-group kinesilk-section kinesilk-founder has-mint-soft-gradient-background has-background" style="padding-top:var(--wp--preset--spacing--70);padding-bottom:var(--wp--preset--spacing--70)">
@@ -24,7 +26,7 @@ $dir = get_template_directory_uri();
 		<!-- wp:paragraph {"className":"kinesilk-founder__name"} -->
 		<p class="kinesilk-founder__name"><strong>Jazmín Quevedo</strong><br>Fundadora de Kinesilk · Kinesióloga Dermatofuncional</p>
 		<!-- /wp:paragraph -->
-	</div><figure class="wp-block-media-text__media" style="background-image:url(<?php echo esc_url( $dir ); ?>/assets/images/ph-portrait.svg);background-position:50% 50%"><img src="<?php echo esc_url( $dir ); ?>/assets/images/ph-portrait.svg" alt="Jazmín Quevedo, fundadora y kinesióloga dermatofuncional de Kinesilk"/></figure></div>
+	</div><figure class="wp-block-media-text__media" style="background-image:url(<?php echo $img; ?>);background-position:50% 20%"><img src="<?php echo $img; ?>" alt="Jazmín Quevedo, fundadora y kinesióloga dermatofuncional de Kinesilk"/></figure></div>
 	<!-- /wp:media-text -->
 </section>
 <!-- /wp:group -->
